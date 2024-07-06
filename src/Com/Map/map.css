@@ -1,0 +1,26 @@
+.map-con{
+    height: 89vh;
+     width: 100%;
+     border: 2px solid red;
+     z-index: 0;
+}
+
+
+ .contain{
+  /* position: absolute; */
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+ }
+ .image{
+    /* position: fixed/; */
+    width: 5px;
+    height: 5px;
+ }
+
+ .contain{
+   position: relative;
+   display: block;
+   visibility: visible;
+   z-index: 1000 !important;
+ }

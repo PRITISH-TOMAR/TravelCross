@@ -1,0 +1,44 @@
+.tool{
+    background: #000000b3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title1{
+    color:#8dcaf9!important ;
+    font-style: italic;    
+}
+
+
+.head{
+    flex-direction: column;
+}
+.search{
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+    text-align: center;
+}
+.list-con{
+    padding-top: 20px;
+    /* border: 2px solid green; */
+    min-height: 90vh;
+    /* background: #000; */
+}
+
+
+.icon{
+    position: relative;
+    top: 3px;
+
+}
+.list2{
+    background: #f0e2e24a !important; 
+    /* color: white !important; */
+    border: 3px solid grey;
+}
+@media screen and (max-width:530px){
+    .title{
+        display: none;
+    }
+}
